@@ -2,6 +2,8 @@
   <head>
     <title>Dog recognition</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -17,14 +19,13 @@
     
     <center>
 
-<h3 class="btn btn-default heading">Dog Recognition</h3>
+<h3 class="btn btn-default heading">DOG RECOGNITION</h3>
 <p id="Doggies">NOTE: THIS APP CAN IDENTIFY THE FOLLOWING DOGS: POMERANIANS, SIBERIAN HUSKYS, GOLDEN RETRIEVERS, AND DALMATIONS</p>
-
       <br><br>
 
       <p style="font-size: 22px;">Model is trained to identify the following objects: </p>
 
-<b class="name_of_objects">
+<b class="name_of_dogs">
  Pomeranian
 <hr>
 Siberian Husky
@@ -54,8 +55,8 @@ Dalmatian
 
       <br><br>
 
-      <p style="font-size: 22px;">The type of dog is  </p>
-      <p style="font-size: 22px;">The Accuracy of the dog is </p>
+      <p id="name" style="font-size: 22px;">The type of dog is  </p>
+      <p id="accuracy" style="font-size: 22px;">The Accuracy of the dog is </p>
     </center>
 
   </div>
